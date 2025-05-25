@@ -1,0 +1,28 @@
+{
+  "port": 3000,
+  "dbUri": "mongodb://localhost:27017/itterms",
+  "tokenKey": "MySecretTokenKey",
+  "adminKey": "MySecretTokenKeyAdmin",
+  "userKey": "MySecretTokenKeyUser",
+  "tokenExpTime": "10h",
+  "userExpTime": "24h",
+  "adminExpTime": "24h",
+
+  "access_key": "AccsessTokenSecretKeyqqqqqq",
+  "refresh_key": "RefreshTokenSecretKeyqqqqqq",
+  "access_time": 10,
+  "refresh_time": 15,
+  "cookie_refresh_time": 1296000000,
+
+  "adminAccess_key": "AdminAccsessTokenSecretKeyqqqqqq",
+  "adminRefresh_key": "AdminRefreshTokenSecretKeyqqqqqq",
+  "adminAccess_time": "10h",
+  "adminRefresh_time": "15d",
+  "adminCookie_refresh_time": 1296000000,
+
+  "smtp_password": "huqr mysu fqmg gpup",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "kamolov607@gmail.com",
+  "api_ulr": "http://localhost:3000"
+}

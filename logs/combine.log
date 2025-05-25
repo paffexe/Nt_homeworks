@@ -1,0 +1,57 @@
+{"label":"right meow!","level":"info","message":"Oddiy LOG ma'lumoti","timestamp":"2025-05-16T10:59:48.424Z"}
+{"label":"right meow!","level":"error","message":"Error ma'lumoti","timestamp":"2025-05-16T10:59:48.426Z"}
+{"label":"right meow!","level":"warn","message":"Warn ma'lumoti","timestamp":"2025-05-16T10:59:48.427Z"}
+{"label":"right meow!","level":"info","message":"Info ma'lumoti","timestamp":"2025-05-16T10:59:48.427Z"}
+{"body":"{\r\n    \"email\": \"hello@gmail.com\"\r\n    \"password\": \"hashedpassword123\"\r\n}","expose":true,"label":"right meow!","level":"error","status":400,"statusCode":400,"timestamp":"2025-05-16T10:59:52.693Z","type":"entity.parse.failed"}
+{"date":"Fri May 16 2025 15:59:54 GMT+0500 (Uzbekistan Standard Time)","error":{},"label":"right meow!","level":"error","message":"unhandledRejection: UnHandledRejection examle\nError: UnHandledRejection examle\n    at D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )\\controllers\\author.controller.js:87:14\n    at new Promise (<anonymous>)\n    at loginAuthor (D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )\\controllers\\author.controller.js:86:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","os":{"loadavg":[0,0,0],"uptime":169755.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )\\app"],"cwd":"D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18282913,"external":20717291,"heapTotal":63029248,"heapUsed":29437576,"rss":91983872},"pid":8636,"uid":null,"version":"v22.14.0"},"rejection":true,"stack":"Error: UnHandledRejection examle\n    at D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )\\controllers\\author.controller.js:87:14\n    at new Promise (<anonymous>)\n    at loginAuthor (D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )\\controllers\\author.controller.js:86:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-05-16T10:59:54.859Z","trace":[{"column":14,"file":"it terms )\\controllers\\author.controller.js","function":"D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4 ","line":87,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":5,"file":"it terms )\\controllers\\author.controller.js","function":"loginAuthor (D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4 ","line":86,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":105,"method":"processTicksAndRejections","native":false}]}
+2025-05-16T11:07:49.502Z [right meow!] info: Oddiy LOG ma'lumoti
+2025-05-16T11:07:49.504Z [right meow!] error: Error ma'lumoti
+2025-05-16T11:07:49.504Z [right meow!] warn: Warn ma'lumoti
+2025-05-16T11:07:49.504Z [right meow!] info: Info ma'lumoti
+2025-05-16T11:07:50.176Z [right meow!] info: Oddiy LOG ma'lumoti
+2025-05-16T11:07:50.177Z [right meow!] error: Error ma'lumoti
+2025-05-16T11:07:50.178Z [right meow!] warn: Warn ma'lumoti
+2025-05-16T11:07:50.178Z [right meow!] info: Info ma'lumoti
+2025-05-16T11:08:15.222Z [right meow!] error: unhandledRejection: UnHandledRejection examle
+Error: UnHandledRejection examle
+    at D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\controllers\author.controller.js:87:14
+    at new Promise (<anonymous>)
+    at loginAuthor (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\controllers\author.controller.js:86:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16T11:14:41.763Z [right meow!] error: unhandledRejection: UnHandledRejection examle
+Error: UnHandledRejection examle
+    at D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\controllers\author.controller.js:87:14
+    at new Promise (<anonymous>)
+    at loginAuthor (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\controllers\author.controller.js:86:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16T11:19:59.576Z [right meow!] error: Expected ',' or '}' after property value in JSON at position 39 (line 3 column 5)
+2025-05-16T11:20:15.370Z [right meow!] error: Expected ',' or '}' after property value in JSON at position 39 (line 3 column 5)
+2025-05-16T11:57:06.427Z [right meow!] error: Expected ',' or '}' after property value in JSON at position 39 (line 3 column 5)
+2025-05-19T10:54:52.144Z [right meow!] error: unhandledRejection: The "paths[0]" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+    at Object.resolve (node:path:199:9)
+    at ExpressHandlebars.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:103:29)
+    at Generator.next (<anonymous>)
+    at D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:13:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:9:12)
+    at ExpressHandlebars.getTemplate (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:102:16)
+    at ExpressHandlebars.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:144:22)
+    at Generator.next (<anonymous>)
+    at D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:13:71
+2025-05-19T10:54:53.061Z [right meow!] error: unhandledRejection: The "paths[0]" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+    at Object.resolve (node:path:199:9)
+    at ExpressHandlebars.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:103:29)
+    at Generator.next (<anonymous>)
+    at D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:13:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:9:12)
+    at ExpressHandlebars.getTemplate (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:102:16)
+    at ExpressHandlebars.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:144:22)
+    at Generator.next (<anonymous>)
+    at D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express-handlebars\dist\express-handlebars.js:13:71
+2025-05-19T13:10:47.530Z [right meow!] error: Parse error on line 8:
+...</div><p>{{JSON.stringify(topics)}}<
+---------------------^
+Expecting 'ID', got 'INVALID'

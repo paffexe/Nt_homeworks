@@ -1,0 +1,82 @@
+{"date":"Fri May 16 2025 15:59:55 GMT+0500 (Uzbekistan Standard Time)","error":{},"exception":true,"label":"right meow!","level":"error","message":"uncaughtException: UncaughtException example\nError: UncaughtException example\n    at Timeout._onTimeout (D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )\\controllers\\author.controller.js:80:15)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","os":{"loadavg":[0,0,0],"uptime":169756.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )\\app"],"cwd":"D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18291129,"external":20725547,"heapTotal":63029248,"heapUsed":29577792,"rss":92123136},"pid":8636,"uid":null,"version":"v22.14.0"},"stack":"Error: UncaughtException example\n    at Timeout._onTimeout (D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4  (it terms )\\controllers\\author.controller.js:80:15)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-05-16T10:59:55.865Z","trace":[{"column":15,"file":"it terms )\\controllers\\author.controller.js","function":"Timeout._onTimeout (D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4 ","line":80,"method":"_onTimeout (D:\\FULL21\\JS2\\JS\\node advanced\\lessons\\lesson4 ","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":594,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"process.processTimers","line":529,"method":"processTimers","native":false}]}
+2025-05-16T11:08:16.229Z [right meow!] error: uncaughtException: UncaughtException example
+Error: UncaughtException example
+    at Timeout._onTimeout (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\controllers\author.controller.js:80:15)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+2025-05-16T11:14:42.772Z [right meow!] error: uncaughtException: UncaughtException example
+Error: UncaughtException example
+    at Timeout._onTimeout (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\controllers\author.controller.js:80:15)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+2025-05-16T11:19:18.993Z [right meow!] error: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at Object.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\app.js:75:9)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-05-16T11:55:44.221Z [right meow!] error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\app.js:51:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-05-16T11:55:44.909Z [right meow!] error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\node_modules\express\lib\application.js:213:11)
+    at Object.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson4  (it terms )\app.js:51:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-05-19T10:54:52.141Z [right meow!] error: uncaughtException: callback function required
+Error: callback function required
+    at Function.engine (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express\lib\application.js:296:11)
+    at Object.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\app.js:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-05-19T10:54:53.059Z [right meow!] error: uncaughtException: callback function required
+Error: callback function required
+    at Function.engine (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\express\lib\application.js:296:11)
+    at Object.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\app.js:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-05-19T17:50:11.300Z [right meow!] error: uncaughtException: root path required
+TypeError: root path required
+    at Function.serveStatic [as static] (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\node_modules\serve-static\index.js:39:11)
+    at Object.<anonymous> (D:\FULL21\JS2\JS\node advanced\lessons\lesson5  (it terms )\app.js:31:17)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49

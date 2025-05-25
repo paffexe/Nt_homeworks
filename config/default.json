@@ -1,6 +1,6 @@
 {
   "port": 3000,
-  "dbUri": "mongodb+srv://paff_exe:paff_exe@study.inhebhi.mongodb.net/?retryWrites=true&w=majority&appName=study"
+  "dbUri": "mongodb+srv://paff_exe:paff_exe@study.inhebhi.mongodb.net/?retryWrites=true&w=majority&appName=study",
   "tokenKey": "MySecretTokenKey",
   "adminKey": "MySecretTokenKeyAdmin",
   "userKey": "MySecretTokenKeyUser",

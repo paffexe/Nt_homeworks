@@ -22,6 +22,9 @@ import { CustomerCardModule } from './customer_card/customer_card.module';
 import { SeatModule } from './seat/seat.module';
 import { EventModule } from './event/event.module';
 import { TicketModule } from './ticket/ticket.module';
+import { BookingModule } from './booking/booking.module';
+import { CartModule } from './cart/cart.module';
+import { CartItemModule } from './cart_item/cart_item.module';
 
 @Module({
   imports: [
@@ -48,6 +51,9 @@ import { TicketModule } from './ticket/ticket.module';
     SeatModule,
     EventModule,
     TicketModule,
+    BookingModule,
+    CartModule,
+    CartItemModule,
   ],
   controllers: [],
   providers: [],
